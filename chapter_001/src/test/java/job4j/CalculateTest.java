@@ -20,7 +20,7 @@ public class CalculateTest
 			out.toString(),
 			is (
 				String.format(
-					"Hello World",
+					"Hello World\r\n",
 					System.getProperty("line.separator")
 				)
 			)
