@@ -1,4 +1,4 @@
-package dlukyanchuk;
+package job4j;
 /**
 * Class Класс для вычиления арифметических операций
 * @author dlukyanchuk

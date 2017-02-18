@@ -20,11 +20,11 @@ public class CalculateTest
 			out.toString(),
 			is (
 				String.format(
-					"Hello World%s",
+					"Hello World",
 					System.getProperty("line.separator")
 				)
 			)
 
 		);
 } 
-};
+}
