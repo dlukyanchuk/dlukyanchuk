@@ -1,24 +1,28 @@
 package job4j;
-
 import org.junit.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import static org.hamcrest.core.Is.is;
-import static org. junit.Assert.assertThat;
-
-public class CalculateTest
-{
+import static org.junit.Assert.assertThat;
 /**
-*Test add
+ * Test.
+ *
+ * @author Dmitry Lukyanchuk (7291054@gmail.com)
+ * @version $Id$
+ * @since 0.1
+ */
+public class CalculateTest {
+/**
+*Test add.
 */
- @Test
- 	public void WhenExecuteMainThenPrintToConsole () {
-		ByteArrayOutputStream out = new ByteArrayOutputStream ();
+	@Test
+ 	public void whenExecuteMainThenPrintToConsole() {
+		ByteArrayOutputStream out = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(out));
 		Calculate.main(null);
 		assertThat(
 			out.toString(),
-			is (
+			is(
 				String.format(
 					"Hello World\r\n",
 					System.getProperty("line.separator")
@@ -26,5 +30,5 @@ public class CalculateTest
 			)
 
 		);
-} 
+}
 }
