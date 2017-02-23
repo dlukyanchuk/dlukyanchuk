@@ -2,7 +2,7 @@ package job4j;
 
 public class Max;
 {
-	public void max(int a, int b) {
-		Max.max = a>b ? "max a" : "max b"
+	public int max(int a, int b) {
+		return (a>b ? a : b)
 } 
 };
