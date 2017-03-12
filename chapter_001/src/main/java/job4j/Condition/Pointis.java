@@ -5,11 +5,11 @@ package Condition;
 * @since 13.02.2017
 * @version 1
 */
-public class Pointis {
+public class PointIs {
    private int x;
    private int y;
  
-   public  Point(int x, int y) {
+   public  PointIs(int x, int y) {
       this.x = x;
       this.y = y;
   }
