@@ -15,6 +15,7 @@ public class Max2 {
 * @return  - результат
 */
 	public int max2(int first, int second, int third) {
-		return max(first, max(second, third));
+		Max max = new Max();
+		return max.max(first, max.max(second, third));
 }
 }
