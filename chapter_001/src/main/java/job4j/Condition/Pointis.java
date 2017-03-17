@@ -1,11 +1,11 @@
-package Condition;
+package condition;
 /**
 * ќпределение положени€ точки.
 * @author dlukyanchuk
 * @since 13.02.2017
 * @version 1
 */
-public class PointIs {
+public class Pointis {
 /**
 * ѕоле класса.
 * @param x - координата оси абсцисс
@@ -14,11 +14,11 @@ public class PointIs {
 private int x;
 private int y;
 /**
-*  онструктор класса PointIs, определ€ющий текущее состо€ние класса.
+*  онструктор класса Pointis, определ€ющий текущее состо€ние класса.
 * @param x - координата оси абсцисс
 * @param y - координата оси ординат
 */
-	public  PointIs(int x, int y) {
+	public  Pointis(int x, int y) {
 		this.x = x;
 		this.y = y;
 }
