@@ -10,19 +10,19 @@ package arrays;
 public class BubbleSort {
 /**
 * Пузырьковый метод для сортировки массива.
-* @param t - переменная "стакан" для подмены элементов массива
+* @param array - данный массив
 * @return - результат метода
 */
-	public int[] sort (int[] array) {
-		for (i = 0; i<array.length; i++) {
-			for (j = 0; j<array.length - i; j++) {
+	public int[] sort(int[] array) {
+		for (i = 0; i < array.length; i++) {
+			for (j = 0; j < array.length - i; j++) {
 				if (array[j] > array[j + 1]) {
 					int t = array[j];
-					array [j] = array[j+1];
-					array [j+1] = t;
+					array [j] = array[j + 1];
+					array [j + 1] = t;
 				}
 			}
 		}
-		return array[];	
+		return array[];
 }
 }

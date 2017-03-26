@@ -15,9 +15,8 @@ public class Paint {
 			for (int length = 1; length <= high * 2 - 1; length++) {									if (length >= h - high + 1 && length < h + high) {
 					System.out.print("^");
 			} else {
-			System.out.print(" ");	
+		System.out.print(" ");
 				}
-		
 
 }
 		System.out.println();
