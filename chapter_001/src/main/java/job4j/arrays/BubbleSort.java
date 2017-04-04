@@ -23,6 +23,6 @@ public class BubbleSort {
 				}
 			}
 		}
-		return array[];
+		return array;
 }
 }
