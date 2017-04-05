@@ -23,6 +23,6 @@ public class RotateArray {
 				array[i][array.length-i] = glass;
 			}
 		}
-		return array[][];
+		return array;
 }
 }
