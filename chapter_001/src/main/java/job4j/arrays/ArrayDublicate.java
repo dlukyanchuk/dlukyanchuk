@@ -5,7 +5,7 @@ package arrays;
 * @since 26.03.2017
 * @version 1
 */
-public class RotateArray {
+public class ArrayDublicate {
 /**
 * Метод для удаления дублированных строк.
 * @param array - данный массив
